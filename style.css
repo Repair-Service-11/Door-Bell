@@ -14,7 +14,7 @@ h3 {
     justify-content: center;
 }
 
-input, #ButtonId, .center{
+#ButtonId, .center{
     background-color: #1d1d1d;
     color: chartreuse;
     height: 100px;
