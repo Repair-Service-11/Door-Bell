@@ -1,17 +1,28 @@
 <HTML>
     <TITLE>Дверной звонок импровизированный</TITLE>
         <BODY>
-            <form action="http://foo.com" method="get">
+            <form action="https://api.vk.com/method/messages.send" method="get">
                 <div>
-                    <label for="say">What greeting do you want to say?</label>
-                    <input name="say" id="say" value="Hi">
+
+                    9236ec4c13dfdd7381d8ae4d04c99cfc1de21761fa0b48b6ca5e212d8732b6d357512e6dfbad916ca03c8
+                    
+                    <label for="user_id">ID получателя</label>
+                    <input name="user_id" id="user_id" value="9325954">
                 </div>
                 <div>
-                    <label for="to">Who do you want to say it to?</label>
-                    <input name="to" id="to" value="Mom">
+                    <label for="message">Сообщение</label>
+                    <input name="message" id="message" value="Поступил звонок в дверь от Вики">
                 </div>
                 <div>
-                    <button>Send my greetings</button>
+                    <label for="v">Версия API</label>
+                    <input name="v" id="v" value="5.81">
+                </div>
+                <div>
+                    <label for="access_token">Token</label>
+                    <input name="access_token" id="access_token" value="9236ec4c13dfdd7381d8ae4d04c99cfc1de21761fa0b48b6ca5e212d8732b6d357512e6dfbad916ca03c8">
+                </div>
+                <div>
+                    <button>Позвонить</button>
                 </div>
             </form>
             
