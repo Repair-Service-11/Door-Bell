@@ -16,6 +16,7 @@ h3 {
 
 input, #ButtonId, .center{
     background-color: #1d1d1d;
+    color: chartreuse;
     height: 100px;
     width: 300px;
     display: flex;
