@@ -1,5 +1,8 @@
 <HTML>
     <TITLE>Дверной звонок импровизированный</TITLE>
+    <head>
+        <link rel="stylesheet" href="style.css"
+    </head>
         <BODY>
             <form action="https://api.vk.com/method/messages.send" method="get">
                 <div>
@@ -18,8 +21,8 @@
                     <label for="access_token">Token</label>
                     <input name="access_token" id="access_token" value="9236ec4c13dfdd7381d8ae4d04c99cfc1de21761fa0b48b6ca5e212d8732b6d357512e6dfbad916ca03c8">
                 </div>
-                <div>
-                    <div onclick="alert('Кнопка звонка нажата')" style="cursor:pointer;border-width:1px;border-style:solid;background-color:gray;width:100px;text-align:center;color:#ffffff;">Позвонить</div>
+                <div class="holder">
+                    <div class="center" onclick="alert('Кнопка звонка нажата')" style="cursor:pointer;border-width:1px;border-style:solid;background-color:gray;width:100px;text-align:center;color:#ffffff;">Позвонить</div>
                 </div>
             </form>
             
