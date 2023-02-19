@@ -17,7 +17,7 @@ h3 {
 #ButtonId, .center{
     background-color: #1d1d1d;
     padding-left: 100;
-    color: chartreuse;
+    color: rgb(255, 0, 157);
     height: 100px;
     width: 300px;
     display: flex;
