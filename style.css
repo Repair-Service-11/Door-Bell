@@ -16,10 +16,11 @@ h3 {
 
 #ButtonId, .center{
     background-color: #1d1d1d;
+    font-size: 6vw;
     padding-left: 100;
     color: rgb(255, 0, 157);
-    height: 100px;
-    width: 300px;
+    height: 40vw;
+    width: 50vw;
     display: flex;
 }
 
