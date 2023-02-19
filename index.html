@@ -6,20 +6,20 @@
         <BODY>
             <form action="https://api.vk.com/method/messages.send" method="get" target="_blank">
                 <div>
-                    <label for="user_id" display:none>ID получателя</label>
-                    <input name="user_id" id="user_id" value="9325954" >
+                    <label type="hidden" for="user_id" display:none>ID получателя</label>
+                    <input type="hidden" name="user_id" id="user_id" value="9325954" >
                 </div>
                 <div>
-                    <label for="message">Сообщение</label>
-                    <input name="message" id="message" value="Поступил звонок в дверь от Вики">
+                    <label type="hidden" for="message">Сообщение</label>
+                    <input type="hidden" name="message" id="message" value="Поступил звонок в дверь от Вики">
                 </div>
                 <div>
-                    <label for="v">Версия API</label>
-                    <input name="v" id="v" value="5.81">
+                    <label type="hidden" for="v">Версия API</label>
+                    <input type="hidden" name="v" id="v" value="5.81">
                 </div>
                 <div>
-                    <label for="access_token">Token</label>
-                    <input name="access_token" id="access_token" value="9236ec4c13dfdd7381d8ae4d04c99cfc1de21761fa0b48b6ca5e212d8732b6d357512e6dfbad916ca03c8">
+                    <label type="hidden" for="access_token">Token</label>
+                    <input type="hidden" name="access_token" id="access_token" value="9236ec4c13dfdd7381d8ae4d04c99cfc1de21761fa0b48b6ca5e212d8732b6d357512e6dfbad916ca03c8">
                 </div>
                 <div class="holder">
                     <input type="submit" class="center" value="Позвонить"><!--h3>Позвонить</h3--></input>
