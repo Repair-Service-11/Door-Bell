@@ -1,6 +1,20 @@
 <HTML>
     <TITLE>Дверной звонок импровизированный</TITLE>
         <BODY>
+            <form action="http://foo.com" method="get">
+                <div>
+                    <label for="say">What greeting do you want to say?</label>
+                    <input name="say" id="say" value="Hi">
+                </div>
+                <div>
+                    <label for="to">Who do you want to say it to?</label>
+                    <input name="to" id="to" value="Mom">
+                </div>
+                <div>
+                    <button>Send my greetings</button>
+                </div>
+            </form>
+            
             <div onclick="alert('Кнопка звонка нажата')" style="cursor:pointer;border-width:1px;border-style:solid;background-color:gray;width:100px;text-align:center;color:#ffffff;">Позвонить</div>
         </BODY>
 </HTML>
