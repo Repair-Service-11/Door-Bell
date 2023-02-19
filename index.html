@@ -1,11 +1,10 @@
 <HTML>
     <TITLE>Дверной звонок импровизированный</TITLE>
     <head>
-        <link rel="stylesheet" href="style.css"
-        <script src="scrypt.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
         <BODY>
-            <form action="https://api.vk.com/method/messages.send" method="get" onSubmit="self.close()" target="_blank">
+            <form action="https://api.vk.com/method/messages.send" method="get" target="_blank">
                 <div>
                     <label for="user_id" display:none>ID получателя</label>
                     <input name="user_id" id="user_id" value="9325954" >
@@ -23,7 +22,7 @@
                     <input name="access_token" id="access_token" value="9236ec4c13dfdd7381d8ae4d04c99cfc1de21761fa0b48b6ca5e212d8732b6d357512e6dfbad916ca03c8">
                 </div>
                 <div class="holder">
-                    <input type="submit" class="center" id = "ButtonId" onclick="document.getElementById('myform').submit(); return false;" value="Позвонить"><!--h3>Позвонить</h3--></input>
+                    <input type="submit" class="center" value="Позвонить"><!--h3>Позвонить</h3--></input>
                 </div>
             </form>
             
