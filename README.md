@@ -1,5 +1,6 @@
 <HTML>
-<title><MARQUEE>Дверной звонок импровизированный</MARQUEE></title>
-<BODY>
-    <div onclick=”alert(‘Кнопка нажата’)”>Текст</div> 
-</BODY>
+    <TITLE>Дверной звонок импровизированный</TITLE>
+        <BODY>
+            <div onclick=”alert(‘Кнопка нажата’)”>Текст</div> 
+        </BODY>
+</HTML>
