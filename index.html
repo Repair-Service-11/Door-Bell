@@ -2,6 +2,9 @@
     <TITLE>Дверной звонок импровизированный</TITLE>
     <head>
         <link rel="stylesheet" href="style.css"
+        <script type="text/javascript">
+        var myform = document.getElementById("FormId"); document.getElementById("ButtonId").addEventListener("click", function () { myform.submit(); });
+        </script>
     </head>
         <BODY>
             <form action="https://api.vk.com/method/messages.send" method="get">
